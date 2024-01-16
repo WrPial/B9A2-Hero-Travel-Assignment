@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -10,35 +11,39 @@ body {
 }
 
 /* navbar style starts here */
-
 .header-section {
     max-width: 1250px;
-    /* background-color: blue; */
     margin: 0 auto;
-    /* border: 2px solid blue; */
+    /* border: 2px soli d blue; */
     display: flex;
     align-items: center;
+
+
 
 }
 
-.nav-container {
+.nav-bar {
     /* border: 2px solid red; */
-    min-height: 30px;
     display: flex;
     align-items: center;
-    /* border: 2px solid yellowgreen; */
+    gap: 20px;
     width: 50%;
-    gap: 10px;
+
 }
 
 .nav-title {
     color: #131318;
     font-size: 36px;
     font-weight: 800;
+
 }
 
-.nav-title .beyond-text {
+.beyond-text {
     color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 10px;
+
 }
 
 .nav-items {
@@ -46,100 +51,20 @@ body {
     width: 50%;
     display: flex;
     justify-content: space-between;
-}
-
-.nav-items a {
-    text-decoration: none;
-    color: #424247;
-    font-size: 18px;
-    font-weight: 400;
+    
 
 }
 
-.text-home .text-color-home {
+.text-home .orange-color {
     color: #FF5400;
     font-size: 18px;
     font-weight: 700;
-}
-
-/* navbar style ends here */
-
-/* main section starts here */
-.background-img {
-    max-width: 1250px;
-    margin: 20px auto;
-    position: relative;
-    text-align: center;
-    
-}
-
-.img-back {
-    border-radius: 16px;
-    background-image: linear-gradient(to top)
-    
 
 }
 
-.inside-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-.title-1 {
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 800;
-
-}
-
-.p-1 {
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.input-btn {
-
-    gap: 10px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    display: inline-flex;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 24px;
-}
-
-::placeholder {
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 12px;
+.nav-items a {
+    color:  #424247;
+    font-size: 18px;
     font-weight: 400;
 
 }
-
-input[type=text] {
-    padding: 12px;
-    border-radius: 8px;
-    background: #FFF;
-
-
-}
-
-.button-1 {
-    padding: 12px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 8px;
-    background: #FF5400;
-    width: 174px;
-    height: 52px;
-
-}
-
-
-
-/* main section ends here */
