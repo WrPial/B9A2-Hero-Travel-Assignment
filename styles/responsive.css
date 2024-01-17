@@ -23,7 +23,7 @@ html, body {
         align-items: center;
         gap: 10px;
     }
-    /* banner part */
+    /* banner part 1*/
 
     .banner {
           height: 500px; 
@@ -55,7 +55,30 @@ html, body {
         .h4-1{
             width: 100%;
         }
-      
 
+        /* banner part 1 ends */
+
+        /* banner2 start here */
+
+        .banner-2{
+            flex-direction: column;
+            align-items: center;
+        }
+        .text-container{
+            width: 100%;
+            
+            
+        }
+        .img-container{
+            width: 100%; 
+        }
+
+        .banner2-title{
+            font-size: 30px;
+            padding-left: 10%;
+            align-items: center;
+        }
+
+        
    
 }
