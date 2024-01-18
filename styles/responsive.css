@@ -78,7 +78,30 @@ html, body {
             padding-left: 10%;
             align-items: center;
         }
-        
+        /* banner 2 ends here */
+
+        /* banner 3 starts here */
+
+        .banner-3{
+          flex-direction: column;
+          align-items: center;
+      }
+      .text-container{
+          width: 100%;
+          
+          
+      }
+      .img-container{
+          width: 100%; 
+      }
+
+      .banner3-title{
+          font-size: 25px;
+          padding-left: 10%;
+          align-items: center;
+      }
+
+      /* banner 3 ends here */
         
         
    
